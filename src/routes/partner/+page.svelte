@@ -73,9 +73,8 @@
 
 <section class="h-screen w-full">
 	<MapLibre
-		style="https://vectortiles.geo.admin.ch/styles/ch.swisstopo.leichte-basiskarte.vt/style.json"
+		style="https://vectortiles.geo.admin.ch/styles/ch.swisstopo.lightbasemap.vt/style.json"
 		class="h-full w-full"
-		images={[{ id: 'marker', url: 'src/lib/images/location-dot-solid.svg' }]}
 		zoom={14}
 		maxZoom={20}
 		center={[7.59274, 47.55094]}
